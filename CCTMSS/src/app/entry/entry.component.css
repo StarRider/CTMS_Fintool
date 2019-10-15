@@ -1,0 +1,51 @@
+button:disabled
+{
+    cursor : not-allowed;
+}
+
+.cardDeck
+{
+    margin-left : 5.5%;
+}
+
+.rangerCard
+{
+    width : 30% !important;
+    display : inline-flex !important;
+    margin : 0px 5px 10px 5px !important;
+}
+
+@media (max-width: 991px)
+{
+    .rangerCard
+    {
+        width : 45% !important;
+    }
+}
+
+@media (max-width: 767px)
+{
+    .rangerCard
+    {
+        width : 90% !important;
+    }
+}
+
+.errrorMessageCard
+{
+    color : white;
+    vertical-align : middle;
+    line-height : 2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+

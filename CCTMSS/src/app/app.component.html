@@ -1,0 +1,23 @@
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+  <a class="navbar-brand" href="/">TMS</a>
+  <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#mainNavBar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+<div class="collapse navbar-collapse" id="mainNavBar">
+  <ul class="navbar-nav">
+    <li class="nav-item"><a class="nav-link" [routerLink]="'viewRanger'">Make an Entry</a></li>
+    <li class="nav-item"><a class="nav-link" [routerLink]="'/'">Generate report</a></li>
+  </ul>
+</div>
+
+
+
+
+</nav>
+<router-outlet></router-outlet>
